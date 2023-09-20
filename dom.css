@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.item{
+    position: relative;
+    cursor: pointer;
+
+}
+.item-caption{
+    background-color:aliceblue;
+    position: absolute;
+    width: 80%;
+    left:10%;
+    bottom: 15px;
+    text-align: center;
+
+}
+
+.img-item{
+    height: 250px;
+}
+.lightbox{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background-color: rgb(0, 0, 0,0.5);
+}
+.light-item{
+    width: 550px;
+    height: 450px;
+    position: relative;
+    
+}
+.light-img{
+    height: 100%;
+    width: 100%;
+}
+.light-item i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#close{
+    position:absolute;
+    top: 5px;
+    right:10px;
+
+}
+#prev{
+    position:absolute;
+    left: 10px;  
+}
+#next{
+    position:absolute;
+    right: 10px;  
+}
